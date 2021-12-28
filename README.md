@@ -3,7 +3,8 @@ Network science or network analytics, involve the analysis of network data and s
 Here, we use python package networkX. NetworkX includes many graph generator functions and facilities to read and write graphs in many formats.
 
 
-| script                           | description                                  |
-|----------------------------------|----------------------------------------------|
-| airline_network_data_analysis    | Analysing airline network data               |
-|                                  |                                              |
+|   | script                        | description                    |
+|---|-------------------------------|--------------------------------|
+| 1 | airline_network_data_analysis | Analysing airline network data |
+| 2 |                               |                                |
+|   |                               |                                |
