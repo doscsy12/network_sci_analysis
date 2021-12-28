@@ -9,3 +9,4 @@ Here, we use python package networkX. NetworkX includes many graph generator fun
 | 2 | epidemic_spreading            | predict the spread of a pandemic |
 | 3 | marketing_social_media        | information spreading          |
 | 4 | community_detection           | clustering behaviour           |
+
