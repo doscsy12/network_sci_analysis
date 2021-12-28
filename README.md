@@ -6,5 +6,5 @@ Here, we use python package networkX. NetworkX includes many graph generator fun
 |   | script                        | description                    |
 |---|-------------------------------|--------------------------------|
 | 1 | airline_network_data_analysis | Analysing airline network data |
-| 2 |                               |                                |
+| 2 | network_robustness | Network robustness                        |
 |   |                               |                                |
