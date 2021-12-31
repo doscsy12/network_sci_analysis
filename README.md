@@ -1,6 +1,6 @@
 ## Network data analysis using networkx
 Network science or network analytics, involve the analysis of network data and statistics to identify trends and patterns. It is part of graph theory, where a network can be defined as a graph in which nodes and/or edges/links have attributes. 
-Here, we use python package networkX. NetworkX includes many graph generator functions and facilities to read and write graphs in many formats. They have inbuilt graphs, such as [Petersen graph](https://github.com/doscsy12/network_sci_analysis/blob/main/petersen_graph.png), which is an undirected graph with 10 nodes and 15 edges, and [Tutte graph](https://github.com/doscsy12/network_sci_analysis/blob/main/tutte_graph.png), which has 3-regular polyhedron graphs with 46 nodes and 69 edges. 
+<br> Here, we use python package networkX. NetworkX includes many graph generator functions and facilities to read and write graphs in many formats. They have inbuilt graphs, such as [Petersen graph](https://github.com/doscsy12/network_sci_analysis/blob/main/petersen_graph.png), which is an undirected graph with 10 nodes and 15 edges, and [Tutte graph](https://github.com/doscsy12/network_sci_analysis/blob/main/tutte_graph.png), which has 3-regular polyhedron graphs with 46 nodes and 69 edges. 
 
 
 |   | script                        | description                    |
