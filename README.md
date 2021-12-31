@@ -1,5 +1,6 @@
 ## Network data analysis using networkx
 Network science or network analytics, involve the analysis of network data and statistics to identify trends and patterns. It is part of graph theory, where a network can be defined as a graph in which nodes and/or edges/links have attributes. 
+<br>
 <br> Here, we use python package networkX. NetworkX includes many graph generator functions and facilities to read and write graphs in many formats. They have inbuilt graphs, such as [Petersen graph](https://github.com/doscsy12/network_sci_analysis/blob/main/petersen_graph.png), which is an undirected graph with 10 nodes and 15 edges, and [Tutte graph](https://github.com/doscsy12/network_sci_analysis/blob/main/tutte_graph.png), which has 3-regular polyhedron graphs with 46 nodes and 69 edges. 
 
 
@@ -18,6 +19,6 @@ From the experiments, closing a few airports (with the most connectivity) would 
 ## 2. Disease network
 Networks (and network simulation), are a key tool in trying to predict the spread of worldwide pandemics. Many governments use modelling and simulation software (such as Gleamviz) to help them make decisions during an epidemic outbreak. Here, the aim is to build a simple model of disease spread on different artificial networks and investigate different vaccination strategies to try and prevent/ slow down the spread of the pandemic.
 
-The network built here is based on the stocastic SIR (Susceptible, Infected, Removed) model, where *alpha* and *beta* describe the rate of removal (fraction of people moving from Infected to Removed) and the rate of infection (fraction of people moving from Susceptible to Infected) respectively. There is a level of known and unknown parameters, which is somewhat realistic, since governments may only have **some** information and data for different aspects of the pandemic. 
+The network built here is based on the stochastic SIR (Susceptible, Infected, Removed) model, where *alpha* and *beta* describe the rate of removal (fraction of people moving from Infected to Removed) and the rate of infection (fraction of people moving from Susceptible to Infected) respectively. There is a level of known and unknown parameters, which is somewhat realistic, since governments may only have **some** information and data for different aspects of the pandemic. 
 
 Having **any** vaccination strategy delays the average peak time and decreases the average total infected, compared to not having any vaccination strategy. Vaccinating the node (person) with the highest degree will be more effective against the disease, since the person will have the most personal interactions with other people. In reality, it is hard to implement, because should we vaccinate people based on the number of 'friends' in facebook/ instagram? 
