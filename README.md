@@ -8,7 +8,7 @@ Network science or network analytics, involve the analysis of network data and s
 |---|-------------------------------|--------------------------------|
 | 1 | airline_network_data_analysis | analysing airline network data |
 | 2 | epidemic_spreading_analysis   | predict vaccination strategy during pandemic | 
-| 3 | viral_marketing_analysis        | predicting information spread thru social media |
+| 3 | viral_marketing_analysis      | analysing information spread thru social media |
 | 4 | community_detection           | clustering behaviour           |
 
 
