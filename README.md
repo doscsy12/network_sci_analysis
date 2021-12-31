@@ -8,7 +8,7 @@ Network science or network analytics, involve the analysis of network data and s
 |---|-------------------------------|--------------------------------|
 | 1 | airline_network_data_analysis | analysing airline network data |
 | 2 | epidemic_spreading_analysis   | predict vaccination strategy during pandemic | 
-| 3 | marketing_social_media        | information spreading          |
+| 3 | viral_marking_analysis        | predicting information spread thru social media |
 | 4 | community_detection           | clustering behaviour           |
 
 
@@ -18,7 +18,7 @@ Airport networks are crucial for understanding the spread of world-wide pandemic
 From the experiments, closing a few airports (with the most connectivity) would result in increase in diameter (i.e. shortest distance between two airports) and average path length (i.e. longest number of flights to reach anywhere in the world) within the airline network. These results are not surprising, as closing of a few airports would mean having to perform more transits (somewhere else). 
 
 ## 2. Disease network
-Networks (and network simulation), are a key tool in trying to predict the spread of worldwide pandemics. Many governments use modelling and simulation software (such as Gleamviz) to help them make decisions during an epidemic outbreak. Here, the aim is to build a simple model of disease spread on different artificial networks and investigate different vaccination strategies to try and prevent/ slow down the spread of the pandemic.
+Networks (and network simulation), are a key tool in trying to predict the spread of worldwide pandemics. Many governments use modelling and simulation software (such as [GLEAMviz](http://www.gleamviz.org/)) to help them make decisions during an epidemic outbreak. Here, the aim is to build a simple model of disease spread on different artificial networks and investigate different vaccination strategies to try and prevent/ slow down the spread of the disease.
 
 The network built here is based on the stochastic SIR (Susceptible, Infected, Removed) model, where *alpha* and *beta* describe the rate of removal (fraction of people moving from Infected to Removed) and the rate of infection (fraction of people moving from Susceptible to Infected) respectively. There is a level of known and unknown parameters, which is somewhat realistic, since governments may only have **some** information and data for different aspects of the pandemic. 
 
