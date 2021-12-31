@@ -11,6 +11,7 @@ Network science or network analytics, involve the analysis of network data and s
 | 3 | marketing_social_media        | information spreading          |
 | 4 | community_detection           | clustering behaviour           |
 
+
 ## 1. Airline network
 Airport networks are crucial for understanding the spread of world-wide pandemics. Air-travel is one of the quickest ways that diseases can spread across the globe. For the airport network, an 'attack' is effectively the closure of an airport. Here, the aim is to know if it is possible to break the network apart, and stop the disease spread, by only attacking a few nodes (closing a few airports).
 
@@ -22,3 +23,6 @@ Networks (and network simulation), are a key tool in trying to predict the sprea
 The network built here is based on the stochastic SIR (Susceptible, Infected, Removed) model, where *alpha* and *beta* describe the rate of removal (fraction of people moving from Infected to Removed) and the rate of infection (fraction of people moving from Susceptible to Infected) respectively. There is a level of known and unknown parameters, which is somewhat realistic, since governments may only have **some** information and data for different aspects of the pandemic. 
 
 Having **any** vaccination strategy delays the average peak time and decreases the average total infected, compared to not having any vaccination strategy. Vaccinating the node (person) with the highest degree will be more effective against the disease, since the person will have the most personal interactions with other people. In reality, it is hard to implement, because should we vaccinate people based on the number of 'friends' in facebook/ instagram? 
+
+## 3. Viral marketing
+Social network platforms like Facebook or Twitter are becoming major sources of information channels. On these new media platforms, everyone acts as both information generator and consumer. In a sense, the spreading of information, or opinions, shares some resemblance with disease spreading. Instead of the disease infecting one person to the next, information is spread from one person to the next. Hence the term 'viral marketing', which is used to define the information that goes viral in social media. 
