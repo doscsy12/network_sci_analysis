@@ -17,6 +17,9 @@ Airport networks are crucial for understanding the spread of world-wide pandemic
 
 From the experiments, closing a few airports (with the most connectivity) would result in increase in diameter (i.e. shortest distance between two airports) and average path length (i.e. longest number of flights to reach anywhere in the world) within the airline network. These results are not surprising, as closing a few airports would mean having to perform more transits (somewhere else). 
 
+Below is the airline network in Force Atlas 2 layout done in Gephi.
+<img src="https://github.com/doscsy12/network_sci_analysis/blob/main/airline_forceatlas2.png" alt="Airports in Force Atlas 2 layout" width="200"/>
+
 ## 2. Disease network
 Networks (and network simulation), are a key tool in trying to predict the spread of worldwide pandemics. Many governments use modelling and simulation software (such as [GLEAMviz](http://www.gleamviz.org/)) to help them make decisions during an epidemic outbreak. Here, the **aim** is to build a simple model of disease spread on different artificial networks and investigate different vaccination strategies to try and prevent/ slow down the spread of the disease.
 
