@@ -21,8 +21,8 @@ Below is the airline network in Force Atlas 2 layout done in Gephi. The size of 
 <br>
 <img src="https://github.com/doscsy12/network_sci_analysis/blob/main/airline_forceatlas2_1.png" alt="Airports in Force Atlas 2 layout" width="600"/>
 <br>
-Another example is the airline network in internal subdivisions (or communities/clusters) done in Gephi. The size of the nodes are airports with higher degrees (more connections in/out of other airports). 
-<img src="https://github.com/doscsy12/network_sci_analysis/blob/main/airline_modularity.png" alt="Airports in clusters" width="600"/>
+Another example is the internal subdivisions (or communities/clusters) of the airline network done in Gephi. 
+<img src="https://github.com/doscsy12/network_sci_analysis/blob/main/airline_modularity_1.png" alt="Airports in clusters" width="600"/>
 
 
 ## 2. Disease network
