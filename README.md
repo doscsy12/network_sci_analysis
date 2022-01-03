@@ -20,6 +20,10 @@ From the experiments, closing a few airports (with the most connectivity) would 
 Below is the airline network in Force Atlas 2 layout done in Gephi. The size of the nodes are airports with higher degrees (more connections in/out of other airports). 
 <br>
 <img src="https://github.com/doscsy12/network_sci_analysis/blob/main/airline_forceatlas2_1.png" alt="Airports in Force Atlas 2 layout" width="600"/>
+<br>
+Another example is the airline network in internal subdivisions (or communities/clusters) done in Gephi. The size of the nodes are airports with higher degrees (more connections in/out of other airports). 
+<img src="https://github.com/doscsy12/network_sci_analysis/blob/main/airline_modularity.png" alt="Airports in clusters" width="600"/>
+
 
 ## 2. Disease network
 Networks (and network simulation), are a key tool in trying to predict the spread of worldwide pandemics. Many governments use modelling and simulation software (such as [GLEAMviz](http://www.gleamviz.org/)) to help them make decisions during an epidemic outbreak. Here, the **aim** is to build a simple model of disease spread on different artificial networks and investigate different vaccination strategies to try and prevent/ slow down the spread of the disease.
