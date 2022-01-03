@@ -17,7 +17,7 @@ Airport networks are crucial for understanding the spread of world-wide pandemic
 
 From the experiments, closing a few airports (with the most connectivity) would result in increase in diameter (i.e. shortest distance between two airports) and average path length (i.e. longest number of flights to reach anywhere in the world) within the airline network. These results are not surprising, as closing a few airports would mean having to perform more transits (somewhere else). 
 
-Below is the airline network in Force Atlas 2 layout done in Gephi. The size of the nodes are airports with higher degrees (more connections in/out between other airports). 
+Below is the airline network in Force Atlas 2 layout done in Gephi. The size of the nodes are airports with higher degrees (more connections in/out of other airports). 
 <br>
 <img src="https://github.com/doscsy12/network_sci_analysis/blob/main/airline_forceatlas2_1.png" alt="Airports in Force Atlas 2 layout" width="600"/>
 
