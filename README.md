@@ -9,6 +9,7 @@ Network science or network analytics, involve the analysis of network data and s
 | 1 | airline_network_data_analysis | analysing airline network data |
 | 2 | epidemic_spreading_analysis   | predict vaccination strategy during pandemic | 
 | 3 | viral_marketing_analysis      | analysing information spread thru social media |
+|   | online_FB_social_network      | analysing information spread using Facebook network data of New Orleans |
 | 4 | community_detection           | clustering behaviour           |
 
 
@@ -38,3 +39,6 @@ Social network platforms like Facebook or Twitter are becoming major sources of 
 The **aim** here is to explore the maximization of viral spreading by selecting the best set of initial seed nodes. In other words, what are the best seed nodes to start tweeting in the initialisation stage, such that the tweet/information can reach the widest population?
 
 Similar to disease spreading, the model construct is based on the stochastic SIR model. From the simulations, bimodal behaviour was seen regardless of how the initial seed nodes were selected (randomly, by degree, by betweenness). This is due to the presence of a 'giant component' within the network. Thus, it was demonstrated that viral spreading can only occur when the information/tweet reaches a certain threshold in spreading strength. Thus, for any given network structure or model construct (SIR, linear threshold model, etc), there is a well-defined threshold before the information (or tweet) can be considered *VIRAL*. 
+
+**Information spread using Facebook (FB) network data of [New Orleans](https://socialnetworks.mpi-sws.org/data-wosn2009.html)**
+Real social networks are complicated, with more intricate local and global structures like assortativity, clustering and communities; They are also much larger with up to billions of nodes for FB. Here, the FB network of New Orleans is used to study the information spread over real social networks. The network consists of *63,731* nodes and *817,090* links. The aim is try to find the 10 (most influential) nodes that maximizes the final percentage of infected nodes. The 10 seed nodes could influence about 64.2% of the network used here. 
