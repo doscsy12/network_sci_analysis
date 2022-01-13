@@ -4,7 +4,7 @@ Network science or network analytics, involve the analysis of network data and s
 <br> Here, we use python package [networkX](https://networkx.org/). NetworkX includes many graph generator functions and facilities to read and write graphs in many formats. They have inbuilt graphs, such as [Petersen graph](https://github.com/doscsy12/network_sci_analysis/blob/main/petersen_graph.png), which is an undirected graph with 10 nodes and 15 edges, and [Tutte graph](https://github.com/doscsy12/network_sci_analysis/blob/main/tutte_graph.png), which has 3-regular polyhedron graphs with 46 nodes and 69 edges. 
 
 
-|   | script                        | description                    |
+|   | notebook                      | description                    |
 |---|-------------------------------|--------------------------------|
 | 1 | airline_network_data_analysis | analysing airline network data |
 | 2 | epidemic_spreading_analysis   | predict vaccination strategy during pandemic | 
@@ -12,6 +12,7 @@ Network science or network analytics, involve the analysis of network data and s
 |   | online_FB_social_network      | analysing information spread using Facebook network data of New Orleans |
 | 4 | community_detection           | clustering behaviour           |
 
+**The above notebooks have been updated/edited to Networkx 2.6 and Python 3.x. Codes in earlier versions were depreciated. Read the docs [here](https://networkx.org/documentation/stable/developer/deprecations.html)**
 
 ## 1. Airline network
 Airport networks are crucial for understanding the spread of world-wide pandemics. Air-travel is one of the quickest ways that diseases can spread across the globe. For the airport network, an 'attack' is effectively the closure of an airport. Here, the **aim** is to know if it is possible to break the network apart, and stop the disease spread, by only attacking a few nodes (closing a few airports).
