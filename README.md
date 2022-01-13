@@ -12,7 +12,7 @@ Network science or network analytics, involve the analysis of network data and s
 |   | online_FB_social_network      | analysing information spread using Facebook network data of New Orleans |
 | 4 | community_detection           | clustering behaviour           |
 
-**The above notebooks have been updated/edited to Networkx 2.6 and Python 3.x. Codes in earlier versions were depreciated. Read the docs [here](https://networkx.org/documentation/stable/developer/deprecations.html).**
+**The above notebooks have been updated/edited to Networkx 2.6 and Python 3.x. Be aware that some codes in earlier versions of Networkx were depreciated. Read the docs [here](https://networkx.org/documentation/stable/developer/deprecations.html).**
 
 ## 1. Airline network
 Airport networks are crucial for understanding the spread of world-wide pandemics. Air-travel is one of the quickest ways that diseases can spread across the globe. For the airport network, an 'attack' is effectively the closure of an airport. Here, the **aim** is to know if it is possible to break the network apart, and stop the disease spread, by only attacking a few nodes (closing a few airports).
