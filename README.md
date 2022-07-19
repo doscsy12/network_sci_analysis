@@ -6,10 +6,10 @@ Network science or network analytics, involve the analysis of network data and s
 
 |   | notebook                      | description                    |
 |---|-------------------------------|--------------------------------|
-| 1 | airline_network_data_analysis | analysing airline network data |
-| 2 | epidemic_spreading_analysis   | predict vaccination strategy during pandemic | 
-| 3 | viral_marketing_analysis      | analysing information spread thru social media |
-|   | online_FB_social_network      | analysing information spread using Facebook network data of New Orleans |
+| 1 | [airline_network_data_analysis](https://github.com/doscsy12/network_sci_analysis/blob/main/Airline_network_data_analysis.ipynb) | analysing airline network data |
+| 2 | [epidemic_spreading_analysis](https://github.com/doscsy12/network_sci_analysis/blob/main/epidemic_spreading_analysis.ipynb)   | predict vaccination strategy during pandemic | 
+| 3 | [viral_marketing_analysis](https://github.com/doscsy12/network_sci_analysis/blob/main/viral_marketing_analysis.ipynb)      | analysing information spread thru social media |
+|   | [online_FB_social_network](https://github.com/doscsy12/network_sci_analysis/blob/main/online_FB_social_network.ipynb)      | analysing information spread using Facebook network data of New Orleans |
 | 4 | community_detection           | clustering behaviour           |
 
 **The above notebooks have been updated/edited to Networkx 2.6 and Python 3.x. Be aware that some codes in earlier versions of Networkx were depreciated. Read the docs [here](https://networkx.org/documentation/stable/developer/deprecations.html).**
