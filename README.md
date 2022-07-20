@@ -43,3 +43,14 @@ Similar to disease spreading, the model construct is based on the stochastic SIR
 
 **Information spread using [Facebook (FB) network data of New Orleans](https://socialnetworks.mpi-sws.org/data-wosn2009.html)**
 <br> Real social networks are complicated, with more intricate local and global structures like assortativity, clustering and communities; They are also much larger with up to billions of nodes for FB. Here, the FB network of New Orleans is used to study the information spread over real social networks. The network consists of *63,731* nodes and *817,090* links. The aim is try to find the 10 (most influential) nodes that maximizes the final percentage of infected nodes. The 10 seed nodes could influence about 64.2% of the network used here. 
+
+## 4. Community detection
+In network science, community detection is a method for finding groups within large and complex systems represented on a graph. Techniques in community detection is useful to discover people in social communities that have common interests, or discover word patterns and co-occurences within publishing or media. In this introductory project, we explore two general methods (divisive and agglomerative) to study real-world networks to reveal clustering behaviour within those systems. 
+
+Real-world datasets used here are:
+- [Wayne Zachary's karate club network](https://www.journals.uchicago.edu/doi/10.1086/jar.33.4.3629752)
+- [Hero Network, from the Marvel Universe](https://www.kaggle.com/datasets/csanhueza/the-marvel-universe-social-network) (yay!)
+- [News Framing of Population and Family Planning Issues](https://www.worldscientific.com/doi/10.1142/S0129183110014987) 
+- [Political blogosphere and the 2004 US Election]((https://dl.acm.org/doi/10.1145/1134271.1134277))
+
+
