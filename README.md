@@ -51,6 +51,6 @@ Real-world datasets used here are:
 - [Wayne Zachary's karate club network](https://www.journals.uchicago.edu/doi/10.1086/jar.33.4.3629752)
 - [Hero Network, from the Marvel Universe](https://www.kaggle.com/datasets/csanhueza/the-marvel-universe-social-network) (yay!)
 - [News Framing of Population and Family Planning Issues](https://www.worldscientific.com/doi/10.1142/S0129183110014987) 
-- [Political blogosphere and the 2004 US Election]((https://dl.acm.org/doi/10.1145/1134271.1134277))
+- [Political blogosphere and the 2004 US Election](https://dl.acm.org/doi/10.1145/1134271.1134277)
 
 
